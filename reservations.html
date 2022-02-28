@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+    <meta>I learned how to format sections and put videos into the web pages. Including making submissions
+</head>
+<body>
+<div id="wrapper">
+    <header a href="index.html">
+        <h1><u>Pacific Trails Resort</u></h1>
+    </header>
+    <nav hyperlink="ul"><b><u>
+        <a href="index.html">Home</a>
+        <br>
+        <a href="yurts.html">Yurts</a>
+        <br>
+        <a href="activities.html">Activities</a>
+
+        <a href="reservations.html">Reservations</a>
+        </u>
+    </b>
+
+    </nav>
+</div>
+<div >
+
+    <br>
+    <main id="contact">
+        <h2>Reservations at Pacific Trails</h2>
+        <h3>Contact Us Today!</h3>
+        <p>Required fields are marked with an asterisk *</p>
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+            <label>*FirstName:</label>
+            <input name="First:">
+            <label>*LastName:</label>
+            <input name="Last:">
+            <label>*E-mail:</label>
+            <input name="E-mail:">
+            <label>Phone:</label>
+            <input name="Phone #:">
+            <label>Arrival Date:</label>
+            <input type="date" name="Date:">
+            <label for="myChoice">Nights:</label>
+            <input type="number" name="Nights"
+                   id="myChoice" min="1" max="14">
+            <label>*Comments:</label>
+            <input name="Comments"><textarea>
+            </textarea>
+            <button>Send Information</button>
+        </form>
+        <h3>Contact information:</h3>
+        <p class="resort">Pacific Trails Resort</p>
+        <span class="contact">
+       <p>12010 Pacific Trails Road</p>
+    <p>Zephyr, CA 95555</p>
+    <br>
+    <p>888-555-5555</p>
+   </span>
+    </main>
+    <footer>
+        <small>
+            <i>Copyright @ 2020 Pacific Trails Resort</i>
+            <br>
+            <i>Nathan@Cassata.com</i>
+        </small>
+    </footer>
+</div>
+
+</body>
+</html>
